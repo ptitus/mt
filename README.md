@@ -1,5 +1,5 @@
 # Scraper
-This Software was developed while working on my master thesis:
+This Software was developed while working on my master thesis:  
 "Analysis of Communication Relationships by Evaluating Telegram Chat Forums"
 
 ### Platform:
@@ -32,9 +32,9 @@ python3 -m pip install --upgrade sklearn_som
 ### Usage:
 To scrape Telegram data you need at least one **api_id** and **api_hash** for a active Telegram account.
 These can be optained from [myTelegram]   
-The **name** can be freely choosen and will be the filename of the corresponding .session file.
+The **name** can be freely choosen and will be the filename of the corresponding .session file.  
 
-These need to be entered into the t_session(number) sections in the scraper.ini file
+These need to be entered into the t_session(number) sections in the scraper.ini file  
 
 **Example, these values will not work!**
 ```sh
