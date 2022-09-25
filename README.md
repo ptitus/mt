@@ -35,6 +35,7 @@ These can be optained from [myTelegram]
 The **name** can be freely choosen and will be the filename of the corresponding .session file.
 
 These need to be entered into the t_session(number) sections in the scraper.ini file
+
 **Example, these values will not work!**
 ```sh
     [t_session1]
