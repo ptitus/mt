@@ -30,7 +30,7 @@ python3 -m pip install --upgrade sklearn
 python3 -m pip install --upgrade sklearn_som
 ```
 ### Usage:
-To scrape Telegram data you need at least on api_id and api_hash for a active Telegram account.
+To scrape Telegram data you need at least one **api_id** and **api_hash** for a active Telegram account.
 These can be optained from [myTelegram]   
 The **name** can be freely choosen and will be the filename of the corresponding .session file.
 
@@ -45,4 +45,4 @@ These need to be entered into the t_session(number) sections in the scraper.ini 
 ```
 
 [//]: #
-[myTelegram] https://my.telegram.org
+[myTelegram]: https://my.telegram.org
