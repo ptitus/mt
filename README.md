@@ -43,6 +43,17 @@ These need to be entered into the t_session(number) sections in the scraper.ini 
     api_hash = 1e5c20f11df68f0eb6c1294afe7a9adc
     wait_until = 
 ```
+### Usage:
+```sh
+scraper.py
+    -h --help
+    -n <seed> --new <seed>
+    -k <keyword> --keyword <keyword>
+    -s --scrape
+    -a --analyze <folder>'''
+```
+... or call without parameters to get the interactive menu:
 
+![Scraper Main Menu](menu.png "Scraper Main Menu")
 [//]: #
 [myTelegram]: https://my.telegram.org
