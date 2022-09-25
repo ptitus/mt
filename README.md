@@ -54,6 +54,7 @@ scraper.py
 ```
 ... or call without parameters to get the interactive menu:
 
-![Scraper Main Menu](menu.png "Scraper Main Menu")
+![Scraper Main Menu](https://github.com/ptitus/mt/tree/master/menu.png "Scraper Main Menu")
 [//]: #
+
 [myTelegram]: https://my.telegram.org
