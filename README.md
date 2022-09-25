@@ -56,6 +56,26 @@ scraper.py
 ... or call without parameters to get the interactive menu:
 
 ![Scraper Main Menu](https://github.com/ptitus/mt/tree/master/menu.png "Scraper Main Menu")
+
+### Current Capabilities:
+1. Scrape Telegram data starting from seed values over multiple hops.
+2. Detect URLs and classify Telegram entities.
+3. Save scraped data in a .sqlite file
+4. Merge scraped datasets.
+5. Analyse the scraped Network data. 
+6. Create a PDF report file from the analysis.
+7. Export the created graph to a .gml File for further analysis.
+
+### Note: 
+The attempted Sockpuppet detection algorihm doesnt work yet, the results are marked appropriately.
+
+### License:
+This software uses GNU GPLv3 License.
+
+
+
+
+
 [//]: #
 
 [myTelegram]: https://my.telegram.org
