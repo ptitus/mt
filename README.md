@@ -8,30 +8,30 @@ Ubuntu Linux 20.04 LTS
 ### Prerequisite:
 ```sh
 apt install pip pkg-config libcairo2-dev libjpeg-dev libgif-dev 
-python3 -m pip install --upgrade pip 
-python3 -m pip install --upgrade telethon 
-python3 -m pip install --upgrade cryptg 
-python3 -m pip install --upgrade pillow 
 python3 -m pip install --upgrade aiohttp
+python3 -m pip install --upgrade cryptg 
 python3 -m pip install --upgrade hachoir
-python3 -m pip install --upgrade powerlaw
-python3 -m pip install --upgrade networkit
-python3 -m pip install --upgrade seaborn
-python3 -m pip install --upgrade networkx
-python3 -m pip install --upgrade pydal
 python3 -m pip install --upgrade halo
-python3 -m pip install --upgrade tabulate
 python3 -m pip install --upgrade matplotlib
+python3 -m pip install --upgrade networkit
+python3 -m pip install --upgrade networkx
+python3 -m pip install --upgrade nltk
+python3 -m pip install --upgrade pillow 
+python3 -m pip install --upgrade pip 
+python3 -m pip install --upgrade powerlaw
+python3 -m pip install --upgrade pydal
 python3 -m pip install --upgrade pyshorteners
 python3 -m pip install --upgrade reportlab
 python3 -m pip install --upgrade rlPyCairo
-python3 -m pip install --upgrade nltk
+python3 -m pip install --upgrade seaborn
 python3 -m pip install --upgrade sklearn
 python3 -m pip install --upgrade sklearn_som
+python3 -m pip install --upgrade tabulate
+python3 -m pip install --upgrade telethon 
 ```
 ### Usage:
 To scrape Telegram data you need at least one **api_id** and **api_hash** for a active Telegram account.
-These can be optained from [myTelegram]   
+These can be optained from [my.telegram.org]   
 The **name** can be freely choosen and will be the filename of the corresponding .session file.  
 
 These need to be entered into the t_session(number) sections in the scraper.ini file  
@@ -78,4 +78,4 @@ This software uses GNU GPLv3 License.
 
 [//]: #
 
-[myTelegram]: https://my.telegram.org
+[my.telegram.org]: https://my.telegram.org
